@@ -1,7 +1,7 @@
 from PIL import Image
 from PIL import ImageDraw
 import matplotlib.pyplot as plt
-image = input("Input name of image file")
+image = input("Input name of image file: ")
 
 im = Image.open(image)
 im = im.resize((1080, 1080))
